@@ -1,1 +1,59 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    background-color:#eeebeb;
+}
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    text-align: center;
+}
+footer {
+    margin: 40px;
+    text-align: center;
+}
+#mainHeading {
+    color: red;
+}
+#htmlEntity {
+    margin-left: 30px;
+    height: 20px;
+    width: 20px;
+}
+.funParagraph {
+    color: green;
+}
+.jobDescriptionContainer {
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+}
+.jobDescription, .funParagraph {
+    border: 3px solid indigo;
+    padding: 25px;
+    line-height: 1.3em;
+    
+}
+.image {
+    border: 4px solid yellow;
+    padding: 10px;
+    margin: 10px;
+}
+#headingBlurb {
+    color: darkblue;
+}
+#massageImg{
+    /* padding-right: 10px; */
+    float: left;
+}
+
+#ccusaImg {
+    float: right;
+}
+
+#computerImg{
+    padding-right: 10px;
+    float: left;
+}
