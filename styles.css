@@ -3,12 +3,17 @@ body {
     display: block;
     background-color:#eeebeb;
 }
+header {
+    padding-left: 20px;
+    margin-top: 10px;
+    border-bottom: 5px solid yellow;
+}
 h2 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h2{
     text-align: center;
-    color: #ff5404;
+    color: green;
 }
 footer {
     margin: 40px;
@@ -20,28 +25,37 @@ footer {
 #htmlEntity {
     margin-left: 30px;
 }
+.caption {
+    display: block;
+}
 .funParagraph {
     color: green;
 }
+/* .imageContainer {
+    padding: 10px;
+} */
 .jobDescriptionContainer {
     margin: 20px;
     margin-left: 200px;
     margin-right: 200px;
-    padding: 10px;
+    padding: 25px;
+
 }
 .jobDescription, .funParagraph {
-    border: 4px solid indigo;
-    padding: 25px;
+    border: 4px solid blue;
+    padding: 35px;
+    padding-bottom: 40px;
     line-height: 1.3em;
     
 }
 .image {
-    border: 4px solid yellow;
+    border: 4px solid indigo;
     padding: 10px;
-    margin: 10px;
+    margin: 30px;
 }
 #headingBlurb {
-    color: darkblue;
+    color: orange;
+    font-weight: bold;
 }
 #massageImg{
     /* padding-right: 10px; */
